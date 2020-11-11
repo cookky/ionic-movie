@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      ภาพยนตร์
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">ภาพยนตร์</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-movie-detail></app-movie-detail>
+
+  <div>
+    <ion-button [routerLink]="['furtherance']" expand="block">ดูความคืบหน้า</ion-button>
+  </div>
+
+</ion-content>
